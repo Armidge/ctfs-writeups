@@ -11,7 +11,7 @@ O objetivo [deste desafio](https://www.root-me.org/en/Challenges/Web-Client/HTML
 
 Esse é o formulário que precisamos ativar (ou arrumar um jeito de contornar) para conseguir a flag, e o primeiro passo é, pra variar, ver o código-fonte.
 
-![Formulário desativado da aplicação](imagens/img1.png)
+![Formulário desativado da aplicação](imagens/img1.PNG)
 
 ```html
 <html>
@@ -38,7 +38,7 @@ Uma vista rápida desse código já nos revela o que é, de certo, a solução d
 
 Na prática, basta a remoção dos dois atributos `disabled` para a ativação do formulário.
 
-![Formulário ativado da aplicação](imagens/img2.png)
+![Formulário ativado da aplicação](imagens/img2.PNG)
 
 E, dessa forma, obtemos a flag. Desafio concluído.
 
