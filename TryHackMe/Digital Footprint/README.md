@@ -4,11 +4,11 @@ O objetivo deste write-up é documentar todo o processo de investigação da emp
 
 ## Índice
 
--   [Task 1. The Leaked Photo (A Foto Vazada)](https://claude.ai/chat/50c64eff-3f2e-4a6e-9ddc-8e69f59140d3#task-1-the-leaked-photo-a-foto-vazada)
--   [Task 2. Archived Company Website (Site Arquivado da Empresa)](https://claude.ai/chat/50c64eff-3f2e-4a6e-9ddc-8e69f59140d3#task-2-archived-company-website-site-arquivado-da-empresa)
--   [Task 3. Mysterious Landmark (Marco Misterioso)](https://claude.ai/chat/50c64eff-3f2e-4a6e-9ddc-8e69f59140d3#task-3-mysterious-landmark-marco-misterioso)
--   [Task 4. Internal Documents (Documentos Internos)](https://claude.ai/chat/50c64eff-3f2e-4a6e-9ddc-8e69f59140d3#task-4-internal-documents-documentos-internos)
--   [Conclusão](https://claude.ai/chat/50c64eff-3f2e-4a6e-9ddc-8e69f59140d3#conclus%C3%A3o)
+- [Task 1. The Leaked Photo (A Foto Vazada)](#task-1-the-leaked-photo-a-foto-vazada)
+- [Task 2. Archived Company Website (Site Arquivado da Empresa)](#task-2-archived-company-website-site-arquivado-da-empresa)
+- [Task 3. Mysterious Landmark (Marco Misterioso)](#task-3-mysterious-landmark-marco-misterioso)
+- [Task 4. Internal Documents (Documentos Internos)](#task-4-internal-documents-documentos-internos)
+- [Conclusão](#conclusão)
 
 ## Task 1. The Leaked Photo (A Foto Vazada)
 
