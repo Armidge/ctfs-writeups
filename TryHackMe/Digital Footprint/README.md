@@ -1,4 +1,4 @@
-# Digital Footprint (TryHackMe)
+# Digital Footprint // [TryHackMe]
 
 O objetivo deste write-up é documentar todo o processo de investigação da empresa fictícia ACME Jet Solutions, proposto no room [Digital Footprint](https://tryhackme.com/room/osintchallengeiv) do TryHackMe, de forma a capturar todas as flags.
 
@@ -14,7 +14,7 @@ O objetivo deste write-up é documentar todo o processo de investigação da emp
 
 Nossa primeira tarefa é descobrir onde a seguinte foto (o primeiro arquivo a ser investigado) foi tirada.
 
-![Foto vazada](edited-house-1763031553617.jpg)
+![Foto vazada](img/edited-house-1763031553617.jpg)
 
 Uma rápida olhada na imagem revela alguns elementos de interesse: uma casa de dois pavimentos, com o nome "The Rectory" no portão, grade de ferro e um adesivo "ADT Armed Response". O estilo arquitetônico, a vegetação e, fundamentalmente, a busca pelo referido serviço de segurança privada nos levam à África do Sul, o que é confirmado por uma rápida análise de metadados (ExifTool):
 
@@ -52,7 +52,7 @@ GPS Position                    : 26 deg 12' 14.76", 28 deg 2' 50.28"
 
 Uma segunda análise (FotoForensics), em busca de dados ou informações adicionais, resultou em uma saída semelhante. As coordenadas da imagem nos levam a uma cidade. Temos a primeira flag!
 
-![Captura de tela da Task 1](Screenshot_20260823_173743.png)
+![Captura de tela da Task 1](img/Screenshot_20260823_173743.png)
 
 Em determinado momento, na busca por essas coordenadas, fui parar no meio de um deserto. Trata-se, simplesmente, de um erro de formatação (ou seria uma maneira de nos despistar?).
 
@@ -62,21 +62,21 @@ Por se tratar de uma empresa fictícia, ela não possui site ativo nem informaç
 
 No Internet Archive, um arquivo [.WARC](https://en.wikipedia.org/wiki/WARC_%28file_format%29) pôde ser encontrado: uma versão antiga do site, com alguns dados, data e hora. Capturamos, então, a segunda flag.
 
-![Captura de tela 1 da Task 2](Screenshot_20260823_180904.png)
+![Captura de tela 1 da Task 2](img/Screenshot_20260823_180904.png)
 
-![Captura de tela 2 da Task 2](Screenshot_20260823_181146.png)
+![Captura de tela 2 da Task 2](img/Screenshot_20260823_181146.png)
 
 ## Task 3. Mysterious Landmark (Marco Misterioso)
 
 A pesquisa reversa da imagem a seguir, realizada no Google Search, trouxe informações sobre o Spire of Dublin. Esse é o marco misterioso.
 
-![Marco misterioso](landmark-1763035881792.JPG)
+![Marco misterioso](img/landmark-1763035881792.JPG)
 
-![Resultado da pesquisa reversa de imagem](Screenshot_20260823_182222.png)
+![Resultado da pesquisa reversa de imagem](img/Screenshot_20260823_182222.png)
 
 Com o nome e a localização do monumento em mãos, o edifício à sua direita foi identificado via Google Maps, obtendo-se, assim, a terceira flag. A saída do ExifTool não trouxe nada relevante ao escopo deste room, apesar da grande quantidade de metadados existentes. Não há coordenadas.
 
-![Identificação do edifício no Google Maps](Screenshot_20260823_182613.png)
+![Identificação do edifício no Google Maps](img/Screenshot_20260823_182613.png)
 
 ## Task 4. Internal Documents (Documentos Internos)
 
@@ -100,9 +100,9 @@ All developers are reminded not to share interal documentation externally.
 
 Dois dados nos são relevantes aqui: uma _description_ direcionada a Robin e um _Internal Username_, `markwilliams7243`, obtido por meio da análise dos metadados. Com o uso do Sherlock, obtivemos algum retorno, mas foi a ferramenta WhatsMyName Web que trouxe o melhor resultado: uma conta ativa no YouTube, de Mark Williams, que continha a última flag que procurávamos.
 
-![Resultado da enumeração de username](Screenshot_20260823_184524.png)
+![Resultado da enumeração de username](img/Screenshot_20260823_184524.png)
 
-![Conta de Mark Williams no YouTube](Screenshot_20260823_184753.png)
+![Conta de Mark Williams no YouTube](img/Screenshot_20260823_184753.png)
 
 ## Conclusão
 
