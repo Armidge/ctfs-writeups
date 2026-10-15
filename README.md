@@ -1,17 +1,6 @@
-# 🛡️ ctfs-writeups
+# ctfs-writeups
 
 Prazer, Jeyson S. Rodrigues (aka **Armidge**), graduando em Segurança da Informação, CTF Player, entusiasta/estudante de cibersegurança e Intel/OPSEC. Este é o repositório dos meus writeups: rascunhos técnicos dos desafios que resolvi no TryHackMe e no Hack The Box.
-
-## 📑 Índice
-
-- [Áreas de estudo](#-áreas-de-estudo)
-- [Writeups](#-writeups)
-  - [TryHackMe](#tryhackme)
-  - [Hack The Box](#hack-the-box)
-- [Ferramentas e Stack](#-ferramentas-e-stack)
-- [Estrutura do repositório](#-estrutura-do-repositório)
-- [Aviso legal e ética](#-aviso-legal-e-ética)
-- [Contato](#-ctfs-writeups---author)
 
 ---
 
