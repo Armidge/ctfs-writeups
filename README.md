@@ -11,7 +11,7 @@ Prazer, Jeyson S. Rodrigues (aka **Armidge**), graduando em Segurança da Inform
 - [Ferramentas e Stack](#-ferramentas-e-stack)
 - [Estrutura do repositório](#-estrutura-do-repositório)
 - [Aviso legal e ética](#-aviso-legal-e-ética)
-- [Contato](#-contato)
+- [Contato](#-ctfs-writeups---author)
 
 ---
 
@@ -83,6 +83,6 @@ ctfs-writeups/
 
 ---
 
-## 📬 Contato
+## ctfs-writeups --author
 
-Tem uma proposta bacana? Mande um e-mail para [jsonsecurity@gmail.com](mailto:jsonsecurity@gmail.com).
+Por Jeyson S. Rodrigues (Armidge). | Email: [jsonsecurity@gmail.com](mailto:jsonsecurity@gmail.com) // 💬 Telegram: [@Armidge](https://t.me/Armidge)

@@ -1,4 +1,4 @@
-# Digital Footprint // [TryHackMe]
+# Digital Footprint
 
 O objetivo deste write-up é documentar todo o processo de investigação da empresa fictícia ACME Jet Solutions, proposto no room [Digital Footprint](https://tryhackme.com/room/osintchallengeiv) do TryHackMe, de forma a capturar todas as flags.
 
@@ -111,3 +111,7 @@ Este foi um room bem tranquilo e, como a própria descrição sugere, fácil de 
 -   **Ferramentas utilizadas:** ExifTool; FotoForensics; Google Search/Maps; Wayback Machine / Internet Archive; Sherlock; WhatsMyName Web.
 -   **Técnicas:** OSINT; análise de metadados EXIF; GEOINT/geolocalização; pesquisa reversa de imagens; análise de sites arquivados (WARC); enumeração de usernames.
 -   **Vulnerabilidades e/ou falhas encontradas:** vazamento de metadados EXIF/GPS; exposição de informações internas (_data leakage_); ameaça interna (_insider threat_); falta de sanitização de documentos; publicação indevida em redes sociais; reutilização de usernames em serviços públicos.
+
+## Digital-Footprint.md
+
+Por Jeyson S. Rodrigues (Armidge). | Email: [jsonsecurity@gmail.com](mailto:jsonsecurity@gmail.com) // 💬 Telegram: [@Armidge](https://t.me/Armidge)
